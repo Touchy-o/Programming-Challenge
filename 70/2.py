@@ -1,4 +1,4 @@
-userInput = input().lower()
+userInput = input().lower() + " "
 
 vowels = ""
 count = 0
@@ -13,4 +13,7 @@ for i in userInput:
             count += 1
             isVowels = False
             vowels = ""
-print("=", count)
+if count == 0:
+    print("0")
+else :
+    print("=", count)
