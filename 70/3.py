@@ -9,6 +9,7 @@ if userInput.isdigit():
         else :
             print("O O", end = "  ")
     print("")
+
     for i in userInput:
         if i in "0489":
             print("O O", end = "  ")
@@ -17,6 +18,7 @@ if userInput.isdigit():
         else :
             print("O  ", end = "  ")
     print("")
+
     for i in userInput:
         if i in "2345689":
             print("OOO", end = "  ")
@@ -25,6 +27,7 @@ if userInput.isdigit():
         else :
             print("O O", end = "  ")
     print("")
+
     for i in userInput:
         if i in "134579":
             print("  O", end = "  ")
@@ -33,6 +36,7 @@ if userInput.isdigit():
         else :
             print("O  ", end = "  ")
     print("")
+
     for i in userInput:
         if i in "0235689":
             print("OOO", end = "  ")
