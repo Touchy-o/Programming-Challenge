@@ -7,7 +7,7 @@ for i in userInput:
     if i in "aeiou":
         vowels += i
     elif vowels:
-        print(vowels, end=" ")
+        print(vowels, end = " ")
         count += 1
         vowels = ""
 
