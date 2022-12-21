@@ -42,5 +42,5 @@ if userInput.isdigit():
             print("OOO", end = "  ")
         else :
             print("  O", end = "  ")
-else :
+else:
     print("Invalid input : Please input only the numbers")
