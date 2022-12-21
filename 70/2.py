@@ -1,4 +1,5 @@
 userInput = input().lower() + " "
+
 vowels = ""
 count = 0
 
